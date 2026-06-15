@@ -1,0 +1,57 @@
+/* ==========================================================================
+   ESTILOS GLOBAIS (global.css)
+   Ctrl+F: ESTILOS-GLOBAIS
+   --------------------------------------------------------------------------
+   Estilos próprios da aplicação que complementam o Bootstrap.
+   O Bootstrap já cuida da maior parte da responsividade (grid, navbar, etc).
+   ========================================================================== */
+
+:root {
+  --cor-primaria: #0d3b2e;
+  --cor-destaque: #1ec27a;
+  --cor-fundo: #f4f6f5;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Faixa superior (cabeçalho) personalizada */
+.navbar-bet {
+  background-color: var(--cor-primaria) !important;
+}
+
+/* Realce do saldo fictício exibido no topo */
+.saldo-badge {
+  background-color: var(--cor-destaque);
+  color: #00261a;
+  font-weight: 700;
+}
+
+/* Card de evento com leve elevação ao passar o mouse */
+.card-evento {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card-evento:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiqueta de status (aberto / encerrado / pendente / ganhou / perdeu) */
+.status-aberto { color: #1ec27a; font-weight: 600; }
+.status-encerrado { color: #b02a37; font-weight: 600; }
+.status-pendente { color: #b8860b; font-weight: 600; }
+.status-ganhou { color: #1ec27a; font-weight: 600; }
+.status-perdeu { color: #b02a37; font-weight: 600; }
+
+/* Destaque do 1º lugar no ranking (funcionalidade extra) */
+.ranking-lider {
+  background-color: #fff7e0;
+}
+
+/* Aviso de finalidade acadêmica */
+.aviso-academico {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
