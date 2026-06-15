@@ -1,0 +1,128 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "email": "admin@bet.com",
+      "senha": "123",
+      "perfil": "admin",
+      "saldo": 0
+    },
+    {
+      "id": 2,
+      "nome": "Guilherme",
+      "email": "guilherme@bet.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 450
+    },
+    {
+      "id": 3,
+      "nome": "Michel",
+      "email": "michel@bet.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 3180
+    }
+  ],
+  "eventos": [
+    {
+      "id": 1,
+      "timeA": "Brasil",
+      "timeB": "Argentina",
+      "esporte": "Futebol",
+      "data": "2026-06-20",
+      "oddA": 2.1,
+      "oddB": 2.5,
+      "status": "encerrado",
+      "resultado": "Brasil"
+    },
+    {
+      "id": 2,
+      "timeA": "MOUZ",
+      "timeB": "Vitality",
+      "esporte": "Counter-Strike",
+      "data": "2026-06-22",
+      "oddA": 1.8,
+      "oddB": 1.9,
+      "status": "encerrado",
+      "resultado": "MOUZ"
+    },
+    {
+      "id": 3,
+      "timeA": "Brasil",
+      "timeB": "EUA",
+      "esporte": "Vôlei",
+      "data": "2026-06-18",
+      "oddA": 1.5,
+      "oddB": 2.8,
+      "status": "encerrado",
+      "resultado": "Brasil"
+    },
+    {
+      "timeA": "Teste",
+      "timeB": "Teste2",
+      "esporte": "Futebol",
+      "data": "2026-07-01",
+      "oddA": 2,
+      "oddB": 3,
+      "status": "aberto",
+      "resultado": "",
+      "id": 4
+    },
+    {
+      "timeA": "Cloud9",
+      "timeB": "Luminosity Gaming",
+      "esporte": "Counter-Strike",
+      "data": "2026-12-06",
+      "oddA": 1.5,
+      "oddB": 2.4,
+      "status": "encerrado",
+      "resultado": "Luminosity Gaming",
+      "id": 5
+    },
+    {
+      "timeA": "Japão",
+      "timeB": "Holanda",
+      "esporte": "Futebol",
+      "data": "2026-12-06",
+      "oddA": 2.5,
+      "oddB": 1.8,
+      "status": "aberto",
+      "resultado": "",
+      "id": 6
+    }
+  ],
+  "apostas": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "eventoId": 3,
+      "palpite": "Brasil",
+      "valor": 100,
+      "odd": 1.5,
+      "status": "ganhou",
+      "retorno": 150
+    },
+    {
+      "usuarioId": 2,
+      "eventoId": 2,
+      "palpite": "Vitality",
+      "valor": 450,
+      "odd": 1.9,
+      "status": "perdeu",
+      "retorno": 855,
+      "id": 2
+    },
+    {
+      "usuarioId": 3,
+      "eventoId": 5,
+      "palpite": "Luminosity Gaming",
+      "valor": 1200,
+      "odd": 2.4,
+      "status": "ganhou",
+      "retorno": 2880,
+      "id": 3
+    }
+  ]
+}
