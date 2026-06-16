@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-bet mb-4">
       <div className="container">
-        <span className="navbar-brand fw-bold">⚽ Bet Acadêmica</span>
+        <span className="navbar-brand fw-bold">⚽ UniBet</span>
 
         <div className="d-flex flex-wrap align-items-center gap-3">
           {/* Links exclusivos do ADMINISTRADOR */}

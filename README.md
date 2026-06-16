@@ -1,4 +1,4 @@
-# Bet Acadêmica
+# UniBet
 
 Plataforma **fictícia** de apostas esportivas desenvolvida em React para fins **exclusivamente acadêmicos**. Nenhum valor é real: todos os saldos, apostas, prêmios e movimentações servem apenas para simulação.
 
@@ -13,7 +13,7 @@ Plataforma **fictícia** de apostas esportivas desenvolvida em React para fins *
 
 ## Descrição geral do sistema
 
-A Bet Acadêmica simula uma plataforma de apostas com **dois perfis**:
+A Unibet simula uma plataforma de apostas com **dois perfis**:
 
 - **Administrador:** cadastra e gerencia eventos esportivos, encerra apostas, registra resultados e acompanha indicadores gerais.
 - **Usuário/Jogador:** visualiza os eventos disponíveis, realiza apostas fictícias, acompanha o saldo simulado, consulta o histórico e o ranking.
