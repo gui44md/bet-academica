@@ -6,7 +6,7 @@ Plataforma **fictícia** de apostas esportivas desenvolvida em React para fins *
 
 ## Integrantes
 
-- **Guilherme** — [https://github.com/gui44md]
+- **Guilherme Medina Silva** — [https://github.com/gui44md]
 - **Michel José Freitas Farah** — [https://github.com/mchfarah]
 
 ---

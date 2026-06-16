@@ -97,8 +97,8 @@ export default function Login() {
 
           {/* Dica de usuários de teste para facilitar a apresentação */}
           <hr />
-          <small className="text-muted d-block">
-            <strong>Teste:</strong> admin@bet.com / joao@bet.com — senha: 123
+          <small className="text-muted d-block">joao
+            <strong>Teste:</strong> admin@bet.com / guilheme@bet.com / michel@bet.com — senha: 123
           </small>
         </div>
       </div>
